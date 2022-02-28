@@ -11,4 +11,4 @@ def div(a):
         m.insert(0,a/i)
   return(l+m) 
 
-#complexity : O(sqrt(n))
+#Complexity: O(sqrt(n))

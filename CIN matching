@@ -1,0 +1,17 @@
+
+n=int(input())
+l=[]
+h=[]
+for i in range(n):
+    l.append(input())
+m=int(input())
+for j in range(m):
+    h.append(input().split(','))
+    
+for x in l:
+    for i in range(m):
+        if h[i][0]==x:
+            print(','.join(h[i]))
+    
+    
+#complexity: O(n^2)
